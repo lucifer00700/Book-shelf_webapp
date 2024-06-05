@@ -1,14 +1,21 @@
-.spinner {
-    width: 56px;
-    height: 56px;
-    border-radius: 50%;
-    background: conic-gradient(#0000 10%,#474bff);
-    -webkit-mask: radial-gradient(farthest-side,#0000 calc(100% - 9px),#000 0);
-    animation: spinner-zp9dbg 1s infinite linear;
- }
- 
- @keyframes spinner-zp9dbg {
-    to {
-       transform: rotate(1turn);
-    }
-}
+.loader {
+   width: 48px;
+   height: 48px;
+   margin-left: 50%;
+   margin-top: 10%;
+   border: 5px solid #FFF;
+   border-bottom-color: #FF3D00;
+   border-radius: 50%;
+   display: inline-block;
+   box-sizing: border-box;
+   animation: rotation 1s linear infinite;
+   }
+
+   @keyframes rotation {
+   0% {
+       transform: rotate(0deg);
+   }
+   100% {
+       transform: rotate(360deg);
+   }
+   } 
