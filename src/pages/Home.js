@@ -41,7 +41,7 @@ const Home = () => {
   };
 
   return (
-    <div className="h-[100rem]">
+    <div className="h-[190rem]">
       <div className="h-[120px] flex items-center justify-evenly text-white ">
         <div className="flex items-center justify-center bg-purple-600 rounded-lg">
           {" "}
